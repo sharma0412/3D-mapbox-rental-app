@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* biltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* biltTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-bilt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-bilt.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2025544CB2C94E72ADC7153D /* Laila-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F6ED63AA134B0694B9D653 /* Laila-Medium.ttf */; };
+		247B9D285FA046D8A74D4485 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2DB08A54DAE4F91B3632A7E /* Lato-Black.ttf */; };
+		295CE60093AE4F33AC2BF639 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2749A26DB244B228D3211AB /* Raleway-Bold.ttf */; };
+		3015CB60AF5B4A30BA48230E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAEC445B2FBD4B7E9C2543D1 /* README.txt */; };
+		34E1974946A8421CB4D2E6AB /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B793E347DC2434F92F598AC /* Raleway-Black.ttf */; };
+		3EEC53028506439E97C96129 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E5FBA7E7D3D49FF8DA81A71 /* Raleway-Thin.ttf */; };
+		406CE8B50A974A119E48B540 /* Laila-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A91B0728C8B1412481641ACB /* Laila-Bold.ttf */; };
+		44F80727909F4019A21E108D /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1C83F5C84CB44DFB9A457D1 /* Raleway-Regular.ttf */; };
+		54016EDA54DF475C9751FE93 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 776D941257B34EB69D6DC974 /* Raleway-BlackItalic.ttf */; };
+		5CA94AF316A744E2B25BA983 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D6F3377E07541CC8E769096 /* Raleway-Italic.ttf */; };
+		61508D0DE7F4459C9C7EF384 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5772C4681DC940C9A5393F69 /* Raleway-ExtraBoldItalic.ttf */; };
+		66A864E932994746A73D0C7B /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98AD44A6481746639DB4F6F1 /* Raleway-SemiBold.ttf */; };
+		68A0FBB796DA434B9AADE089 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 865C6A5FB2C04FC4A28CADAB /* Raleway-Italic-VariableFont_wght.ttf */; };
+		69D961465D78486BB23B3608 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A14E8C80720422E8250D712 /* Lato-Light.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-bilt-biltTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-bilt-biltTests.a */; };
+		7C4355A7919A460792819BD3 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19B4EF235D3144F9897533BC /* Raleway-ExtraLightItalic.ttf */; };
+		7D44A7B6C7CF4C75AEFE33DC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2282D4C0800C41AFAB41BDB6 /* OFL.txt */; };
+		814716A9B69C4A02A3174AAF /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0399D6E8C0D846BFAC5D576B /* Raleway-Medium.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		849069413DB04A498E899BD7 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB317DD55246B58378FD6E /* Raleway-LightItalic.ttf */; };
+		9DB9E7BB9DD944EA8D08D94A /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77AE3F75B2A04A78973B6939 /* Raleway-Light.ttf */; };
+		A36678B624A843C49F7D2F39 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D14EC43CDBA149C09B5359C3 /* Raleway-ThinItalic.ttf */; };
+		A4F6CA82FE664C2487889092 /* Laila-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB2D5621C5D49138CD0652D /* Laila-Regular.ttf */; };
+		A55BEBD748D04CD9A3421A83 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 616DC22A5BE649A19763B173 /* Raleway-ExtraBold.ttf */; };
+		A94DE36593674578BC4FEA15 /* Laila-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D09436204E9643B3B3FCEBA5 /* Laila-Light.ttf */; };
+		AAD0C71A37614496B3CD52B3 /* Laila-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F9EEF40F1E24C5CAE808F7C /* Laila-SemiBold.ttf */; };
+		B3BCAE0EB64A49E38926D6D5 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B5E8A2E4F144AC2A3AB5229 /* Lato-BoldItalic.ttf */; };
+		B59D6445C3514FF7A96FB33B /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04D8ED27838846D585373D0D /* Raleway-BoldItalic.ttf */; };
+		B5EBC1823CEE417483C29240 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7E998BDCE444C2E8D558779 /* Lato-BlackItalic.ttf */; };
+		BC91D0F073784127A06207BC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64BD1B2771844EE9A76B4867 /* Lato-Bold.ttf */; };
+		BD9099A58C06485AAD8C42DD /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2040D8AA3B0D46DBAD2676BD /* Lato-LightItalic.ttf */; };
+		CB0A77FD499C44F68219BC47 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70906F8984354023B07F0405 /* Raleway-SemiBoldItalic.ttf */; };
+		D9E97BF2C35E4EF9A49FCFD8 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA72491C3F4E318B4D4BD4 /* Raleway-ExtraLight.ttf */; };
+		DB71E605D0444C25907E3F53 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9AE395D2B05493189FF0457 /* Lato-Italic.ttf */; };
+		E3139F4ECC6B47F4A289B1C7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3583B4F6F9034E429EC196BE /* Lato-ThinItalic.ttf */; };
+		E52F0A4F5CB247E89B4404DD /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D8D7E8F5394E25BC7BBFAA /* Raleway-MediumItalic.ttf */; };
+		E78107EE40A7420282D1569F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C474CD4621C41798D0F7F40 /* Lato-Thin.ttf */; };
+		F8A9B593551443EBB0E5BCC9 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 350A7EF8FA924EF284A70C28 /* Lato-Regular.ttf */; };
+		FB8B5E843CD845A4BBD7CC5E /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 764F052CD35D4B8E80A2E8B5 /* Raleway-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = bilt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* biltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* biltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = biltTests.m; sourceTree = "<group>"; };
+		0399D6E8C0D846BFAC5D576B /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../src/assets/fonts/static/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		04D8ED27838846D585373D0D /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../src/assets/fonts/static/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* bilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = bilt/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = bilt/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = bilt/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = bilt/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bilt/main.m; sourceTree = "<group>"; };
+		19B4EF235D3144F9897533BC /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../src/assets/fonts/static/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-bilt-biltTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bilt-biltTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6F3377E07541CC8E769096 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../src/assets/fonts/static/Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		2040D8AA3B0D46DBAD2676BD /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-LightItalic.ttf"; path = "../src/assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		2282D4C0800C41AFAB41BDB6 /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../src/assets/fonts/OFL.txt; sourceTree = "<group>"; };
+		27D8D7E8F5394E25BC7BBFAA /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../src/assets/fonts/static/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2F9EEF40F1E24C5CAE808F7C /* Laila-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Laila-SemiBold.ttf"; path = "../src/assets/fonts/Laila-SemiBold.ttf"; sourceTree = "<group>"; };
+		350A7EF8FA924EF284A70C28 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../src/assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		3583B4F6F9034E429EC196BE /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-ThinItalic.ttf"; path = "../src/assets/fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-bilt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilt.debug.xcconfig"; path = "Target Support Files/Pods-bilt/Pods-bilt.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-bilt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilt.release.xcconfig"; path = "Target Support Files/Pods-bilt/Pods-bilt.release.xcconfig"; sourceTree = "<group>"; };
+		5772C4681DC940C9A5393F69 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/static/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-bilt-biltTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilt-biltTests.debug.xcconfig"; path = "Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C474CD4621C41798D0F7F40 /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../src/assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-bilt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bilt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB317DD55246B58378FD6E /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../src/assets/fonts/static/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		616DC22A5BE649A19763B173 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../src/assets/fonts/static/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		64BD1B2771844EE9A76B4867 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../src/assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6E5FBA7E7D3D49FF8DA81A71 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../src/assets/fonts/static/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		70906F8984354023B07F0405 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../src/assets/fonts/static/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		764F052CD35D4B8E80A2E8B5 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-VariableFont_wght.ttf"; path = "../src/assets/fonts/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		776D941257B34EB69D6DC974 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../src/assets/fonts/static/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		77AE3F75B2A04A78973B6939 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../src/assets/fonts/static/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		7AAA72491C3F4E318B4D4BD4 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../src/assets/fonts/static/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7B793E347DC2434F92F598AC /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../src/assets/fonts/static/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = bilt/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865C6A5FB2C04FC4A28CADAB /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-bilt-biltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilt-biltTests.release.xcconfig"; path = "Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A14E8C80720422E8250D712 /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../src/assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		8B5E8A2E4F144AC2A3AB5229 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BoldItalic.ttf"; path = "../src/assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		98AD44A6481746639DB4F6F1 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../src/assets/fonts/static/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		A2DB08A54DAE4F91B3632A7E /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../src/assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		A7E998BDCE444C2E8D558779 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BlackItalic.ttf"; path = "../src/assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A91B0728C8B1412481641ACB /* Laila-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Laila-Bold.ttf"; path = "../src/assets/fonts/Laila-Bold.ttf"; sourceTree = "<group>"; };
+		A9AE395D2B05493189FF0457 /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../src/assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		ADB2D5621C5D49138CD0652D /* Laila-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Laila-Regular.ttf"; path = "../src/assets/fonts/Laila-Regular.ttf"; sourceTree = "<group>"; };
+		D09436204E9643B3B3FCEBA5 /* Laila-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Laila-Light.ttf"; path = "../src/assets/fonts/Laila-Light.ttf"; sourceTree = "<group>"; };
+		D0F6ED63AA134B0694B9D653 /* Laila-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Laila-Medium.ttf"; path = "../src/assets/fonts/Laila-Medium.ttf"; sourceTree = "<group>"; };
+		D14EC43CDBA149C09B5359C3 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../src/assets/fonts/static/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D1C83F5C84CB44DFB9A457D1 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/static/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		D2749A26DB244B228D3211AB /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../src/assets/fonts/static/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FAEC445B2FBD4B7E9C2543D1 /* README.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = README.txt; path = ../src/assets/fonts/README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-bilt-biltTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-bilt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* biltTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* biltTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = biltTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* bilt */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = bilt;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-bilt.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-bilt-biltTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* bilt */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* biltTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E2FC7394C26640188F99D143 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* bilt.app */,
+				00E356EE1AD99517003FC87E /* biltTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-bilt.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-bilt.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-bilt-biltTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-bilt-biltTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2FC7394C26640188F99D143 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A91B0728C8B1412481641ACB /* Laila-Bold.ttf */,
+				D09436204E9643B3B3FCEBA5 /* Laila-Light.ttf */,
+				D0F6ED63AA134B0694B9D653 /* Laila-Medium.ttf */,
+				ADB2D5621C5D49138CD0652D /* Laila-Regular.ttf */,
+				2F9EEF40F1E24C5CAE808F7C /* Laila-SemiBold.ttf */,
+				A2DB08A54DAE4F91B3632A7E /* Lato-Black.ttf */,
+				A7E998BDCE444C2E8D558779 /* Lato-BlackItalic.ttf */,
+				64BD1B2771844EE9A76B4867 /* Lato-Bold.ttf */,
+				8B5E8A2E4F144AC2A3AB5229 /* Lato-BoldItalic.ttf */,
+				A9AE395D2B05493189FF0457 /* Lato-Italic.ttf */,
+				8A14E8C80720422E8250D712 /* Lato-Light.ttf */,
+				2040D8AA3B0D46DBAD2676BD /* Lato-LightItalic.ttf */,
+				350A7EF8FA924EF284A70C28 /* Lato-Regular.ttf */,
+				5C474CD4621C41798D0F7F40 /* Lato-Thin.ttf */,
+				3583B4F6F9034E429EC196BE /* Lato-ThinItalic.ttf */,
+				865C6A5FB2C04FC4A28CADAB /* Raleway-Italic-VariableFont_wght.ttf */,
+				764F052CD35D4B8E80A2E8B5 /* Raleway-VariableFont_wght.ttf */,
+				7B793E347DC2434F92F598AC /* Raleway-Black.ttf */,
+				776D941257B34EB69D6DC974 /* Raleway-BlackItalic.ttf */,
+				D2749A26DB244B228D3211AB /* Raleway-Bold.ttf */,
+				04D8ED27838846D585373D0D /* Raleway-BoldItalic.ttf */,
+				616DC22A5BE649A19763B173 /* Raleway-ExtraBold.ttf */,
+				5772C4681DC940C9A5393F69 /* Raleway-ExtraBoldItalic.ttf */,
+				7AAA72491C3F4E318B4D4BD4 /* Raleway-ExtraLight.ttf */,
+				19B4EF235D3144F9897533BC /* Raleway-ExtraLightItalic.ttf */,
+				1D6F3377E07541CC8E769096 /* Raleway-Italic.ttf */,
+				77AE3F75B2A04A78973B6939 /* Raleway-Light.ttf */,
+				5EDB317DD55246B58378FD6E /* Raleway-LightItalic.ttf */,
+				0399D6E8C0D846BFAC5D576B /* Raleway-Medium.ttf */,
+				27D8D7E8F5394E25BC7BBFAA /* Raleway-MediumItalic.ttf */,
+				D1C83F5C84CB44DFB9A457D1 /* Raleway-Regular.ttf */,
+				98AD44A6481746639DB4F6F1 /* Raleway-SemiBold.ttf */,
+				70906F8984354023B07F0405 /* Raleway-SemiBoldItalic.ttf */,
+				6E5FBA7E7D3D49FF8DA81A71 /* Raleway-Thin.ttf */,
+				D14EC43CDBA149C09B5359C3 /* Raleway-ThinItalic.ttf */,
+				2282D4C0800C41AFAB41BDB6 /* OFL.txt */,
+				FAEC445B2FBD4B7E9C2543D1 /* README.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* biltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "biltTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = biltTests;
+			productName = biltTests;
+			productReference = 00E356EE1AD99517003FC87E /* biltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* bilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bilt" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bilt;
+			productName = bilt;
+			productReference = 13B07F961A680F5B00A75B9A /* bilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bilt" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* bilt */,
+				00E356ED1AD99517003FC87E /* biltTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				406CE8B50A974A119E48B540 /* Laila-Bold.ttf in Resources */,
+				A94DE36593674578BC4FEA15 /* Laila-Light.ttf in Resources */,
+				2025544CB2C94E72ADC7153D /* Laila-Medium.ttf in Resources */,
+				A4F6CA82FE664C2487889092 /* Laila-Regular.ttf in Resources */,
+				AAD0C71A37614496B3CD52B3 /* Laila-SemiBold.ttf in Resources */,
+				247B9D285FA046D8A74D4485 /* Lato-Black.ttf in Resources */,
+				B5EBC1823CEE417483C29240 /* Lato-BlackItalic.ttf in Resources */,
+				BC91D0F073784127A06207BC /* Lato-Bold.ttf in Resources */,
+				B3BCAE0EB64A49E38926D6D5 /* Lato-BoldItalic.ttf in Resources */,
+				DB71E605D0444C25907E3F53 /* Lato-Italic.ttf in Resources */,
+				69D961465D78486BB23B3608 /* Lato-Light.ttf in Resources */,
+				BD9099A58C06485AAD8C42DD /* Lato-LightItalic.ttf in Resources */,
+				F8A9B593551443EBB0E5BCC9 /* Lato-Regular.ttf in Resources */,
+				E78107EE40A7420282D1569F /* Lato-Thin.ttf in Resources */,
+				E3139F4ECC6B47F4A289B1C7 /* Lato-ThinItalic.ttf in Resources */,
+				68A0FBB796DA434B9AADE089 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
+				FB8B5E843CD845A4BBD7CC5E /* Raleway-VariableFont_wght.ttf in Resources */,
+				34E1974946A8421CB4D2E6AB /* Raleway-Black.ttf in Resources */,
+				54016EDA54DF475C9751FE93 /* Raleway-BlackItalic.ttf in Resources */,
+				295CE60093AE4F33AC2BF639 /* Raleway-Bold.ttf in Resources */,
+				B59D6445C3514FF7A96FB33B /* Raleway-BoldItalic.ttf in Resources */,
+				A55BEBD748D04CD9A3421A83 /* Raleway-ExtraBold.ttf in Resources */,
+				61508D0DE7F4459C9C7EF384 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				D9E97BF2C35E4EF9A49FCFD8 /* Raleway-ExtraLight.ttf in Resources */,
+				7C4355A7919A460792819BD3 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				5CA94AF316A744E2B25BA983 /* Raleway-Italic.ttf in Resources */,
+				9DB9E7BB9DD944EA8D08D94A /* Raleway-Light.ttf in Resources */,
+				849069413DB04A498E899BD7 /* Raleway-LightItalic.ttf in Resources */,
+				814716A9B69C4A02A3174AAF /* Raleway-Medium.ttf in Resources */,
+				E52F0A4F5CB247E89B4404DD /* Raleway-MediumItalic.ttf in Resources */,
+				44F80727909F4019A21E108D /* Raleway-Regular.ttf in Resources */,
+				66A864E932994746A73D0C7B /* Raleway-SemiBold.ttf in Resources */,
+				CB0A77FD499C44F68219BC47 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				3EEC53028506439E97C96129 /* Raleway-Thin.ttf in Resources */,
+				A36678B624A843C49F7D2F39 /* Raleway-ThinItalic.ttf in Resources */,
+				7D44A7B6C7CF4C75AEFE33DC /* OFL.txt in Resources */,
+				3015CB60AF5B4A30BA48230E /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bilt-biltTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bilt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilt/Pods-bilt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bilt-biltTests/Pods-bilt-biltTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* biltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* bilt */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-bilt-biltTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = biltTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilt.app/bilt";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-bilt-biltTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = biltTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilt.app/bilt";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-bilt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = bilt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilt;
+				PRODUCT_NAME = bilt;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-bilt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = bilt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilt;
+				PRODUCT_NAME = bilt;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "biltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
